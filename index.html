@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MonoDev - Solusi Digital Terpadu untuk Bisnis Modern">
+    <meta name="keywords" content="monodev, digital solutions, web development, app development">
+    <meta name="author" content="MonoDev Team">
+    <title>MonoDev - Solusi Digital Terpadu</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+</head>
+<body>
+    <!-- Header Navigation -->
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav-brand">
+                <h1 class="logo">MonoDev</h1>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Beranda</a></li>
+                <li><a href="#services" class="nav-link">Layanan</a></li>
+                <li><a href="#about" class="nav-link">Tentang</a></li>
+                <li><a href="#contact" class="nav-link">Kontak</a></li>
+            </ul>
+            <div class="nav-toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Solusi Digital Terpadu untuk Bisnis Modern</h1>
+                <p class="hero-description">
+                    Kami membantu bisnis Anda bertransformasi digital dengan layanan pengembangan web, 
+                    aplikasi mobile, dan konsultasi IT yang profesional.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Hubungi Kami</a>
+                    <a href="#services" class="btn btn-secondary">Lihat Layanan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title">Layanan Kami</h2>
+            <p class="section-subtitle">Solusi digital yang disesuaikan dengan kebutuhan bisnis Anda</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🌐</div>
+                    <h3>Web Development</h3>
+                    <p>Membangun website responsif dan modern yang meningkatkan kehadiran online bisnis Anda.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📱</div>
+                    <h3>Mobile Apps</h3>
+                    <p>Mengembangkan aplikasi mobile iOS dan Android yang user-friendly dan powerful.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">☁️</div>
+                    <h3>Cloud Solutions</h3>
+                    <p>Implementasi solusi cloud yang scalable dan aman untuk infrastruktur IT Anda.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>UI/UX Design</h3>
+                    <p>Desain antarmuka yang menarik dan pengalaman pengguna yang optimal.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>IT Consulting</h3>
+                    <p>Konsultasi strategis untuk transformasi digital dan optimasi teknologi bisnis.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🚀</div>
+                    <h3>Digital Marketing</h3>
+                    <p>Strategi pemasaran digital untuk meningkatkan visibilitas dan konversi bisnis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Tentang MonoDev</h2>
+                    <p>
+                        MonoDev adalah partner digital terpercaya yang berfokus pada pengembangan 
+                        solusi teknologi inovatif untuk bisnis modern. Dengan tim profesional 
+                        yang berpengalaman, kami berkomitmen memberikan layanan terbaik untuk 
+                        membantu bisnis Anda berkembang di era digital.
+                    </p>
+                    <p>
+                        Kami percaya bahwa setiap bisnis memiliki kebutuhan unik, oleh karena itu 
+                        kami menyediakan solusi yang disesuaikan dengan tujuan dan visi perusahaan Anda.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <h3>100+</h3>
+                        <p>Proyek Selesai</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>50+</h3>
+                        <p>Klien Puas</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>5+</h3>
+                        <p>Tahun Pengalaman</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Hubungi Kami</h2>
+            <p class="section-subtitle">Mari diskusikan bagaimana kami dapat membantu bisnis Anda</p>
+            <div class="contact-content">
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Nama</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Pesan</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                </form>
+                <div class="contact-info">
+                    <div class="info-item">
+                        <h4>📧 Email</h4>
+                        <p>info@monodev.id</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>📱 Telepon</h4>
+                        <p>+62 812-3456-7890</p>
+                    </div>
+                    <div class="info-item">
+                        <h4>📍 Alamat</h4>
+                        <p>Jakarta, Indonesia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>MonoDev</h3>
+                    <p>Solusi Digital Terpadu</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Link Cepat</h4>
+                    <ul>
+                        <li><a href="#home">Beranda</a></li>
+                        <li><a href="#services">Layanan</a></li>
+                        <li><a href="#about">Tentang</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Ikuti Kami</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">FB</a>
+                        <a href="#" aria-label="Twitter">TW</a>
+                        <a href="#" aria-label="Instagram">IG</a>
+                        <a href="#" aria-label="LinkedIn">LI</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 MonoDev. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
